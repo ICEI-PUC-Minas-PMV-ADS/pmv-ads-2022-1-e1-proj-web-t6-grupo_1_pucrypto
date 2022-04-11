@@ -1,13 +1,17 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No mundo atual, é inevitável fechar os olhos para a tecnologia que nos cerca, sendo ela em um simples sistema de semáforos de trânsito, ou na forma que você controla o seu dinheiro. E é nessa modalidade que se encontra um dos maiores fenômenos da atualidade, as criptomoedas. 
+
+  Ao contrário dos sistemas bancários atuais (centralizados), a maior parte das criptomoedas utilizam um sistema de controle descentralizado com base na tecnologia Blockchain, que é um livro de registro distribuído e operado por uma rede peer-to-peer de milhares de máquinas, onde todos possuem uma cópia igual de todo histórico de transações, bloqueando, assim, alterações no registro ou exclusões por parte de uma entidade central (Wikipédia: Criptomoeda, 2021. Disponível em: <https://pt.wikipedia.org/wiki/Criptomoeda>. Acesso em: 29 de março de 2022). 
+
+ Já uma carteira virtual é um aplicativo que permite fazer pagamentos instantâneos de produtos ou serviços, armazenando as “chaves” públicas ou privadas que podem ser usadas para receber ou gastar a criptomoeda de maneira relativamente anônima. Com a chave privada um usuário pode realizar pagamentos, enquanto a chave pública serve para recebê-los. 
+
+ Com base nessas informações, torna-se extremamente importante que a educação sobre o assunto seja introduzida a todos os públicos, fazendo com que o usurário tenha a conscientização do controle que ele tem sobre sua vida financeira, além de evitar muitos cybercrimes cometidos contra aqueles sem tal conhecimento. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O problema que se busca resolver com este projeto é a limitação da liberdade financeira imposta por sistemas de controle centralizados, onde a entidade central tem mais informações sobre seu dinheiro que o usuário propriamente dito. Sendo, desta forma, mais seguro saber onde estão indo as finanças do usuário, mais controle sobre as mesmas e uma forma atual de investimento.  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+ A PUCrypto será um meio de agilizar as transações com criptomoedas por meio de uma carteira virtual, onde o usuário terá controle dos ativos digitais e informações para tomada de decisões com base na valorização e desvalorização detalhada no site, podendo fazer transferências e saques para carteiras físicas.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,28 +20,33 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo deste trabalho é a criação de um portal voltado para o mercado de criptomoedas que apresente ferramentas que permitam ao usuário realizar todas as operações pertinentes a este mercado. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+ Como objetivos específicos, podemos ressaltar: 
+
+ Fornecer funcionalidades que permitam realizar operações com criptomoedas; 
+
+ Fornecer ao usuário uma série de dicas sobre o investimento em criptomoedas; 
+
+ Permitir a criação de uma aba de favoritos com as criptomoedas que o usuário mais gosta. 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Devido a constantes volatilidades de inflações nacionais, a necessidade de educação financeira é uma realidade mundial, pois a cada década os ativos digitais se tornam cada vez mais presentes entre a sociedade, mostrado através do levantamento feito pela Passfolio, corretora voltada para o mercado de investimento dos EUA, informando que o crescimento no ano de 2021 em investimentos em criptomoedas cresceram cerca de 455% até o ultimo trimestre. Também informado pela maior corretora gestora de criptoativos do Brasil, a  Hashdex, afirma um crescimento de mais de 1000% dentro do mercado Nacional, despertando assim interesse e até mesmo necessidade para a sociedade que vem a possibilitar uma renda passiva e uma diversificação no portifólio de poupança dos usuários. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Neste viés, é necessária uma plataforma com transparência e confiabilidade para captar investimentos e aportes de clientes que querem acompanhar a onda crescente das criptomoedas, tendo suporte com informações e ferramentas de orientações nas transações e saques de possíveis rentabilidades do seu capital.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora todo mundo possa se beneficiar da praticidade e facilidade proporcionada pelo site, o foco está no grupo de pessoas que se interessam pelo mercado financeiro. Aqueles que já investem seu dinheiro, ou tem interesse em investi-lo. Com o foco maior sendo o grupo interessado em trabalhar com criptomoedas. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 18 e 50 anos que usam computadores e dispositivos moveis para comprar, vender e ler notícias relacionadas as criptomoedas, que trabalham e buscam aumentar sua renda e investir seu dinheiro. 
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
