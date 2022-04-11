@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Plataforma estilo carteira digital para compra e estudo de Cryptomoedas. Onde serão disponibilizados os valores atuais das principais cryptomoedas do mercado, com dicas de investimento. Na carteira virtual você consegue adicionar saldo em real para realizar a compra as moedas.
 
 ## Integrantes
 
