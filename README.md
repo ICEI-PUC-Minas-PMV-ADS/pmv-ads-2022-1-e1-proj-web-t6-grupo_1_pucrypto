@@ -1,10 +1,10 @@
 # PUCrypto
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas `
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2022.1`
 
 Plataforma estilo carteira digital para compra e estudo de Cryptomoedas. Onde serão disponibilizados os valores atuais das principais cryptomoedas do mercado, com dicas de investimento. Na carteira virtual você consegue adicionar saldo em real para realizar a compra as moedas.
 
