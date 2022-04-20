@@ -13,10 +13,6 @@ O problema que se busca resolver com este projeto é a limitação da liberdade 
 
  A PUCrypto será um meio de agilizar as transações com criptomoedas por meio de uma carteira virtual, onde o usuário terá controle dos ativos digitais e informações para tomada de decisões com base na valorização e desvalorização detalhada no site, podendo fazer transferências e saques para carteiras físicas.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -24,11 +20,11 @@ O objetivo deste trabalho é a criação de um portal voltado para o mercado de 
 
  Como objetivos específicos, podemos ressaltar: 
 
- Fornecer funcionalidades que permitam realizar operações com criptomoedas; 
+ * Fornecer funcionalidades que permitam realizar operações com criptomoedas; 
 
- Fornecer ao usuário uma série de dicas sobre o investimento em criptomoedas; 
+ * Fornecer ao usuário uma série de dicas sobre o investimento em criptomoedas; 
 
- Permitir a criação de uma aba de favoritos com as criptomoedas que o usuário mais gosta. 
+ * Permitir a criação de uma aba de favoritos com as criptomoedas que o usuário mais gosta. 
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
