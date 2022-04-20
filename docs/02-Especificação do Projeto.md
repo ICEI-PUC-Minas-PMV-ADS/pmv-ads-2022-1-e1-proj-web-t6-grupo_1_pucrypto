@@ -6,19 +6,16 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis 
+Amanda Alves tem 30 anos, é advogada e sócia de um pequeno escritório que atua em processos de investimento blockchain. Pensa em conseguir uma renda passiva para alcançar uma estabilidade financeira invetindo em empresas com clareza e responsabilidade. Já perdeu mais de R$10.000,00 em pirâmides financeiras e agora está focando em estudar investimentos em criptomoedas e gestão pessoal.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Carlos Gomes tem 43 anos, é Engenheiro de Produção e investidor na bolsa de valores e no mercado de criptomoedas. Orienta pessoas para conseguirem estabilidade financeira. Sua forma de investir é clara: sempre em empresas com potencial para aportes financeiros confiáveis. Há alguns anos, sua empresa de vendas automobilísticas foi à falência devido a pagamentos de multas por sonegação, e por cauda disso, acabou perdendo a casa para o banco. Seus maiores hobbies são: Desenhos 3D, palestrar sobre gestão financeira e fazer viagens a trabalho.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Daniel Morais tem 18 anos, é estudante e deseja ter uma estabilidade financeira aos 25 ano. Para isso, ele quer criar uma startup aos 25 anos. Sua maior motivação é dar uma vida melhor para os pais. Mas, como um grande obstáculo, Daniel não tem capital e ainda não possuí idade e conhecimento suficiente para tais empreendimentos. Seus maiores hobbies são: Andar de Skate, jogar videp-games e ler livros.
+
+Sheldon Dias tem 25 anos, é Engenheiro de Software e Gerente de projetos de uma multinacional. Sheldon deseja ser autônomo, inovando o mundo com novas tecnologias e, por fim, se tornar um milionário com tais empreendimentos. Perdeu um software por decisão judicial e suas maiores frustrações é não poder ter filhos e não ter temopo de gerir seu capital. Seus Hobbies são: estudar investimentos em criptomoedas, ler livros de ficção ciêntífica e colecionar mangás.
+
+Horácio Pedroza tem 50 anos, é aposentado e dono de uma loja de artesanato. Sempre gostou de aprender coisas novas, fazendo com que ele tenha um vasto conhecimento para deixar um património para seus filhos. Com o falecimento da esposa, Horácio entrou em uma profunda depressão, fazendo com que se afastasse de sua família. Ele também lamenta ter uma renda passiva pequena e não ter tido tempo de aprender a ler e escrever quando era mais novo. Seus maiores hobbies são: descansar em um rede, ler jornais e caminhar.
+
 
 ## Histórias de Usuários
 
