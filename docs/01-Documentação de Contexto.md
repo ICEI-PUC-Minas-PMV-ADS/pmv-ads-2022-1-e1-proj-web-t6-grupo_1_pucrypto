@@ -25,9 +25,7 @@ O objetivo deste trabalho é a criação de um portal voltado para o mercado de 
  * Fornecer ao usuário uma série de dicas sobre o investimento em criptomoedas; 
 
  * Permitir a criação de uma aba de favoritos com as criptomoedas que o usuário mais gosta. 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
@@ -35,17 +33,9 @@ Devido a constantes volatilidades de inflações nacionais, a necessidade de edu
 
 Neste viés, é necessária uma plataforma com transparência e confiabilidade para captar investimentos e aportes de clientes que querem acompanhar a onda crescente das criptomoedas, tendo suporte com informações e ferramentas de orientações nas transações e saques de possíveis rentabilidades do seu capital.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 Embora todo mundo possa se beneficiar da praticidade e facilidade proporcionada pelo site, o foco está no grupo de pessoas que se interessam pelo mercado financeiro. Aqueles que já investem seu dinheiro, ou tem interesse em investi-lo. Com o foco maior sendo o grupo interessado em trabalhar com criptomoedas. 
 
 Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 18 e 50 anos que usam computadores e dispositivos moveis para comprar, vender e ler notícias relacionadas as criptomoedas, que trabalham e buscam aumentar sua renda e investir seu dinheiro. 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
