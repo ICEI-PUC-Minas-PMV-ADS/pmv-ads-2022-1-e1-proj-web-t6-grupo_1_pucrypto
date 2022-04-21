@@ -26,6 +26,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Amanda Alves | Notícias e orientações para possíveis investimento | Criar uma renda passiva e ter uma estabilidade financeira |
 |Carlos Gomes | Ter um site de confiança para indicar e atrair clientes através das minhas orientações | Gerar dinheiro através de consultorias e orientações de investimentos |
 |Daniel Morais | Criar uma carteira virtual onde possa alocar um pequeno capital e ter retornos substanciais | Gerar um grande retorno financeiro através do mercado de criptomoedas e aplicar na fundação de uma empresa |
+|Sheldon Dias | Ter um local de confiança onde poderá alocar grande capital e geri-lo com facilidade | Gerar grandes retornos com facilidade e clareza no mercado de criptomoedas |
+|Horácio Pedroza | Aplicar fundo pensionário, onde irá gerir uma renda passiva satisfatória | Conseguir deixar uma quantia suficiente há amparar seus familiares |
 
 ## Requisitos
 
