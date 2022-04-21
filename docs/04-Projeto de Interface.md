@@ -1,33 +1,49 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis. 
 
-## User Flow
+## Fluxo do Usuário
 
-![Exemplo de UserFlow](img/userflow.jpg)
+O diagrama apresentado na Figura 04 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente MarvelApp do projeto](https://marvelapp.com/prototype/i41ajjb). 
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+ ![UserFlow](img/user-flow.png)
 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 05. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: 
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+* Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
+* Conteúdo - apresenta o conteúdo da tela em questão; 
+* Rodapé - apresenta informações de quem criou a plataforma.
+
+![Padrão de Layout](img/padrao.png)
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+### Tela - Home-Page
+
+Com base na estrutura padrão, o bloco de cabeçalho apresenta o menú de navegação na plataforma. O bloco conteúdo mostrará informações sobre as principais criptomoedas do mercado e pequenos motivos para o usuário utilizar a plataforma, apresentando gráficos e imagens. Por fim, o bloco de rodapé mostrará informações de quem fez a página.
+
+![Home](img/home-2.png)[
+
+### Tela - Universidade
+
+A tela de universidade apresenta, no Bloco de Conteúdo, as dicas de investimento no mercado de criptomoedas. 
+
+![Universidade](img/universidade.png)
+
+### Tela - Carteira
+
+A carteira é onde o usuário irá realizar todas as operações inerentes ao mercado de criptomoedas (venda e compra). Também poderá acompanhar suas criptomoedas favoritas. A figura a seguir apresenta como será esta página:
+
+![Carteira](carteira.png)
+
+### Tela - Login
+
+A tela de Login, no Bloco de Conteúdo, duas opções. A primeira é a opção de login, onde o usuário entrará com suas informações (CPF e Senha) para entrar na plataforma. A segunda é a opção de cadastro, onde o usuário informará suas informações (Nome Completo, CPF, E-mail e Senha) para ele ser cadastrado na plataforma. A figura a seguir apresenta como será esta página: 
+
+![Login](login.png)
+
+### Tela - Sobre Nós
+
+Está página apresenta informações sobre a equipe de desenvolvimento do projeto e informações para o usuário entrar em contato. A figura a seguir apresenta como será esta página: 
