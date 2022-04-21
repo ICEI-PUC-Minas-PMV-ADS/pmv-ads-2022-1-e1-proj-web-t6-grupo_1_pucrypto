@@ -66,10 +66,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 14/07/2022 |
 |RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Front-end  |
 |RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
