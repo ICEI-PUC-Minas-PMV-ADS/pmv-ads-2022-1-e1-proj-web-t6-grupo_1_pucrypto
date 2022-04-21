@@ -36,14 +36,16 @@ A tela de universidade apresenta, no Bloco de Conteúdo, as dicas de investiment
 
 A carteira é onde o usuário irá realizar todas as operações inerentes ao mercado de criptomoedas (venda e compra). Também poderá acompanhar suas criptomoedas favoritas. A figura a seguir apresenta como será esta página:
 
-![Carteira](carteira.png)
+![Carteira](img/carteira.png)
 
 ### Tela - Login
 
 A tela de Login, no Bloco de Conteúdo, duas opções. A primeira é a opção de login, onde o usuário entrará com suas informações (CPF e Senha) para entrar na plataforma. A segunda é a opção de cadastro, onde o usuário informará suas informações (Nome Completo, CPF, E-mail e Senha) para ele ser cadastrado na plataforma. A figura a seguir apresenta como será esta página: 
 
-![Login](login.png)
+![Login](img/login.png)
 
 ### Tela - Sobre Nós
 
 Está página apresenta informações sobre a equipe de desenvolvimento do projeto e informações para o usuário entrar em contato. A figura a seguir apresenta como será esta página: 
+
+![Sobre Nós](img/sobre-nós.png)
