@@ -11,7 +11,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |Ambiente | Plataforma | Link de Acesso |
 |---------|------------|----------------|
 |Repositório de Código Fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto |
-|Documentos do projeto | Google Drive | https://drive.google.com/drive/folders/11mkE8kIitT91ek3OM9VmU8ObKzgWooLg?usp=sharing |
+|Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto |
 |Projeto de Interface de Wireframes | Marvel App | https://marvelapp.com/prototype/i41ajjb |
 |Gerenciamento do Projeto | Trello | https://trello.com/b/HP5tP5Bm/pucrypto |
 
