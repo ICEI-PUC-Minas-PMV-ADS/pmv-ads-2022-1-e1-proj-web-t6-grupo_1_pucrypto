@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a{
+    color: #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+a:hover{
+    color: rgb(95, 215, 255);
+   
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header{
+    height: 50px;
+    background: orange;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+.menu > li {
+    padding: 15px;
+}
+.menu li:hover{
+    background: rgba(255, 255, 255, 0.514);
+}
+
+.conteudo-principal {
+    display: grid;
+    justify-content: center;
+}
+
+.boas-vindas {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+.conteudo {
+    display: grid;
+    justify-items: center;
+}
+
+.intro {
+  display: grid;
+  background: #fff;
+  gap: 20px;
+  place-self: center;
+  text-align: right;
+  padding-right: 60px;
+  position: relative;
+  align-content: center;
+  justify-items: end;
+}
+
+.intro h1 {
+    font-size: 30px;
+}
+
+.detalhe {
+  position: absolute;
+  background-color: orange;
+  width: 60px;
+  height: 4px;
+  right: -30px;
+  top: -15px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+.criptomoedas {
+    margin-top: 60px;
+    background-color: orange;
+    padding: 20px;
+    width: 100vw;
+    height: 480px;
+    color:  #fff;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-right: 60px;
+    margin-left: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.cripto-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.cripto-item > h3 {
+padding-bottom: 15px;
+font-size: 25px
+}
+
+.editar-imagem{
+    width: 300px;
+    height: 300px;
+}
+
+
+.texto-boas-vindas::after{
+    content: '';
+    width: 280px;
+    height: 4px;
+    background: orange;
+    display: block;
+    margin: 10px auto 0px;
+}
+
+
