@@ -79,6 +79,7 @@ span{
 .info p{
     color: var(--secondary-color);
     line-height: 22px;
+    text-align: left;
 }
 
 .info a{
