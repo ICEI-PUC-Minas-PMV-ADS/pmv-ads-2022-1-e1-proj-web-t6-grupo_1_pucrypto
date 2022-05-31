@@ -1,12 +1,22 @@
-# Template padrão do site
+# Template do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente. 
+! [padrão.png] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto/blob/main/docs/img/padrao.png?raw=true)
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+O template criado está disponível no site [link text] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto) e é composto pelos seguintes layouts:
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+* Tela home Page 
+* Tela carteira 
+* Tela universidade 
+* Tela quem somos  
+* Tela login
+
+## Tela Home Page
+
+Tela que permite visualizar barras de navegações e acessar ferramentas de mudanças de tema (Light / Dark).
+! [homepage.png] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto/blob/main/docs/img/homepage.png?raw=true)
+
+## Tela de Login 
+
+Este layout é utilizado para o usuário informar suas informações (Nome Completo, CPF, E-mail e Senha) para ele ser cadastrado na plataforma. 
+! [login.png] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto/blob/main/docs/img/login.png?raw=true)
