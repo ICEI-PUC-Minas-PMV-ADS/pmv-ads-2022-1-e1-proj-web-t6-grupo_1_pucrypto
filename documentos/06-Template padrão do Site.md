@@ -21,7 +21,7 @@ Tela que permite visualizar barras de navegações e acessar ferramentas de muda
 
 ## Tela de Login 
 
-Este layout é utilizado para o usuário informar suas informações (Nome Completo, CPF, E-mail e Senha) para ele ser cadastrado na plataformk
+Este layout é utilizado para o usuário informar suas informações (Nome Completo, CPF, E-mail e Senha) para ele ser cadastrado na plataformk.
 
 ![login (1)](https://user-images.githubusercontent.com/103466408/171295914-f3cae0cb-8e39-4261-b7c8-ee7bac94418b.png)
 
