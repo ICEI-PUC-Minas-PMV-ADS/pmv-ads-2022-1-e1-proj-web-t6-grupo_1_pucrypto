@@ -4,7 +4,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 ![padrao_1](https://user-images.githubusercontent.com/103466408/171295855-dff0653d-f945-48ca-9ace-8c2fff78122b.png)
 
-O template criado está disponível no site [link text] (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto) e é composto pelos seguintes layouts:
+O template criado está disponível no site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto  e é composto pelos seguintes layouts:  
 
 * Tela home Page 
 * Tela carteira 
