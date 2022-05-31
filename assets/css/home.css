@@ -179,20 +179,20 @@ a {
 
 .girl {
   position: relative;
-  width: 400px;
+  width: 350px;
   left: 20%;
-  bottom: 10%;
+  bottom: 15%;
 }
 
 .pattern {
-  width: 500px;
+  width: 430px;
   position: absolute;
-  bottom: -3%;
-  right: 10%;
+  bottom: 10%;
+  right: 13%;
 }
 
 .img-box:hover .pattern {
-  bottom: 10px;
+  bottom: 30px;
 }
 
 .img-box:hover .girl {

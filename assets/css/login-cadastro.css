@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --details: #ff4321;
+  --details-light: #f06e57;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  transition: background 0.2s linear;
+  color: var(--secondary-color);
+}
+
+/* MODO NOTURNO */
+.check {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #333;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 33px;
+  width: 33px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.check:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: yellow;
+}
+
+.fa-sun {
+  color: #f26101;
+}
+
+/* Header */
+.cabecalho {
+  width: 84%;
+  margin: auto;
+  display: flex;
+  padding: 1.2rem 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cabecalho img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu a {
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  color: var(--details);
+}
+
+/* Login */
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: #ffffff20;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+.card span {
+  color: var(--details);
+  transition: all 0.5s ease-out;
+}
+
+.card span:hover {
+  color: var(--details-light);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.label-float input {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid var(--details);
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  border-radius: 0;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid var(--details-light);
+}
+
+.label-float label {
+  color: var(--secondary-color);
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all 0.3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: var(--details-light);
+}
+
+button {
+  background-color: transparent;
+  border-color: var(--details);
+  color: var(--secondary-color);
+  padding: 15px 50px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease-out;
+}
+
+button:hover {
+  background-color: var(--details);
+  color: var(--primary-color);
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+}
+
+.linha hr {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+p {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.entrar {
+  color: var(--details);
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+  font-weight: bold;
+}
+
+.entrar:hover {
+  color: var(--details-light);
+}
+
+.fa-eye {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  cursor: pointer;
+  color: var(--details);
+}
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess {
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+/* Rodapé */
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.rodape img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.rodape p {
+  font-weight: bold;
+}
+
+.rodape a {
+  color: var(--details);
+}
