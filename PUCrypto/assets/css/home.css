@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+/* ESTILOS GERAIS */
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --details: #ff4321;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  transition: background 0.2s linear;
+  color: var(--secondary-color);
+}
+
+/* MODO NOTURNO */
+.check {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #333;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.check:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: yellow;
+}
+
+.fa-sun {
+  color: #f26101;
+}
+
+/*ESTILIZAÇÃO HEADER */
+.cabecalho {
+  width: 84%;
+  margin: auto;
+  display: flex;
+  padding: 1.2rem 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cabecalho img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu a {
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  color: var(--details);
+}
+
+/* ESTILO CONTEÚDO DE BOAS-VINDAS*/
+.conteudo-principal {
+  display: grid;
+  justify-content: center;
+}
+
+.conteudo {
+  display: grid;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.intro {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.motivo {
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  align-content: center;
+  justify-items: start;
+  position: relative;
+}
+
+.motivo p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.motivo h1 {
+  font-size: 4.5rem;
+}
+
+.motivo span {
+  color: var(--details);
+}
+
+.botao {
+  color: var(--primary-color);
+  background-color: var(--details);
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: var(--details);
+}
+
+.img-box img {
+  transform: translateX();
+  transition: bottom 1s, left 1s;
+}
+
+.girl {
+  position: relative;
+  width: 350px;
+  left: 20%;
+  bottom: 15%;
+}
+
+.pattern {
+  width: 430px;
+  position: absolute;
+  bottom: 10%;
+  right: 13%;
+}
+
+.img-box:hover .pattern {
+  bottom: 30px;
+}
+
+.img-box:hover .girl {
+  left: 30%;
+}
+
+@media (max-width: 1100px) {
+  .img-box {
+    display: none;
+  }
+
+  .motivo {
+    display: grid;
+    margin-left: 8.5rem;
+    justify-items: center;
+    place-items: center;
+  }
+}
+
+/* PRINCIPAIS CRIPTOMOEDAS */
+.graphics {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+.graphics h2 {
+  font-size: 2rem;
+  padding-top: 1.2rem;
+  text-align: center;
+}
+
+.graphics p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.graphics img {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* ESTILIZAÇÃO LISTA CLIENTES */
+.avaliacao {
+  text-align: center;
+}
+
+.avaliacao p {
+  margin-bottom: 1.5rem;
+}
+
+.avaliacao p span {
+  color: var(--details);
+}
+.subtitulo-clientes {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lista-clientes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .lista-clientes {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitulo-clientes {
+    font-size: 1.3rem;
+  }
+
+  .avaliacao p {
+    font-size: 1.2rem;
+  }
+}
+
+.cliente {
+  border: 2px solid var(--details);
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 4rem;
+}
+
+.cliente:hover {
+  border: 4px solid var(--details);
+}
+
+.foto-cliente {
+  margin-bottom: 20px;
+  width: 175px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.cliente span {
+  color: var(--details);
+  font-weight: bold;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.rodape img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.rodape p {
+  font-weight: bold;
+}
+
+.rodape a {
+  color: var(--details);
+}
