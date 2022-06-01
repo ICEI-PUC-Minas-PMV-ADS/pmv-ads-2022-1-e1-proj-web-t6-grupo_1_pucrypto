@@ -113,10 +113,10 @@ Esta ferramenta é utilizada para personalizar o tema do site podendo ser mudado
 * style.css 
 
 **Instruções de acesso**
-3. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
-4. Descompacte o arquivo em uma pasta específica; 
-5. Abra o Visual Studio Code e execute o Live Server; 
-6. Abra um navegador de Internet e informe a seguinte URL: 
+3. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+4. Descompacte o arquivo em uma pasta específica;
+5.  Abra o Visual Studio Code e execute o Live Server; 
+6.  Abra um navegador de Internet e informe a seguinte URL: 
 http://localhost:5500/index.html  
 
 
