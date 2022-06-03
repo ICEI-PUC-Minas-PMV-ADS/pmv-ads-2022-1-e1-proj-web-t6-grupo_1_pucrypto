@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Critérios de Êxito | * Deve haver uma requisição AJAX no painel NETWORK das ferramentas do Desenvolvedor (recurso do Navegador). 
                        * As criptomoedas devem ser exibidas corretamente no site, sendo necessárias pelo menos 3 criptomoedas serem apresentadas 
                        * As notícias devem trazer imagens visíveis associadas a criptomoeda informada |
-| ------------------ |  ----------------------------------------------------------------------------------------------------------------------- |           
+| ------------------ |  -----------------------------------------------------------------------------------------------------------------------            
 
 
 
