@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/carteira.css">
+    <link href="img/page-icon.png" rel="icon">
     <title>PUCrypto | Carteira</title>
 </head>
 
@@ -32,10 +36,241 @@
         </ul>
     </header>
 
-    <main>
-        <h1 id="logado"></h1>
-        <button onclick="sair()">Sair</button>
-    </main>
+    <!-- Início da Carteira-->
+    <div class="container px-5 py-4 my-5">
+        <div class="row">
+            <div class="col-md-2 d-flex flex-row flex-md-column align-items-center">
+                <a class="my-4 mx-sm-2 mx-2 mx-md-0 font-16 square orange-bg-color white-color round-corner-small d-flex flex-row justify-content-center align-items-center" href="../index.html">
+                    <i class="fas fa-home "></i>
+                </a>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6">
+                        <div class="p-4 d-flex flex-column purple-bg-color round-corner">
+                            <span class="text-uppercase font-10 weight-600 white-color-2">Saldo</span>
+                            <span class="font-28 weight-700 white-color mt-4">R$4,563,234</span>
+                            <span class="font-12 weight-300 white-color-2">3.235323 BTC</span>
+                            <div class="d-flex flex-row justify-content-between mt-4">
+                                <div class="d-flex flex-column">
+                                    <span class="font-16 weight-600 white-color">$3,742.00</span>
+                                    <span class="font-12 weight-300 white-color-2">Entradas</span>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <span class="font-16 weight-600 white-color">$6,987.00</span>
+                                    <span class="font-12 weight-300 white-color-2">Despesas</span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row mt-4">
+                                <button class="flex-grow-1 me-1 py-2 text-uppercase font-12 weight-700 purple-color-2 grey-bg-color">Adicionar Saldo</button>
+                                <button class="flex-grow-1 ms-1 py-2 text-uppercase font-12 weight-700 white-color orange-bg-color">Comprar moedas</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="py-3">
+                            <span class="text-uppercase font-10 weight-600 grey-color-2">Rentabilidade</span>
+                            <div class="d-flex flex-column round-corner grey-bg-color ps-4 py-3 mt-3 mb-4">
+                                <span class="font-30 purple-color-2">0.069%</span>
+                                <span class="text-uppercase font-14 purple-color-2">Líquida</span>
+                            </div>
+                            <div class="d-flex flex-column round-corner grey-bg-color ps-4 py-3 ">
+                                <span class="font-30 purple-color-2">0.085%</span>
+                                <span class="text-uppercase font-14 purple-color-2">Nominal (bruta)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pt-3">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase font-10 weight-600 grey-color-2">Cryptomoedas</th>
+                                        <th class="text-end text-uppercase font-10 weight-600 purple-color-2">Ver todas</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small font-20 light-orange-bg-color orange-color">
+                                                    <i class="fab fa-bitcoin"></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2">
+                                                    <span class="font-14 weight-700 purple-color-2">BTE</span>
+                                                    <span class="font-10 weight-400 purple-color-2">Bitcoin</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end">
+                                                <span class="font-14 weight-700 purple-color-2">64%</span>
+                                                <span class="font-10 weight-400 orange-color">-1.7%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row ">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small light-yellow-bg-color yellow-color font-20 ">
+                                                    <i class="fab fa-ethereum "></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2 ">
+                                                    <span class="font-14 weight-700 purple-color-2 ">DAI</span>
+                                                    <span class="font-10 weight-400 purple-color-2 ">Dai</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end ">
+                                                <span class="font-14 weight-700 purple-color-2 ">54%</span>
+                                                <span class="font-10 weight-400 purple-color-2 ">7.4%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row ">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small light-teal-bg-color teal-color font-20 ">
+                                                    <i class="fas fa-lira-sign "></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2 ">
+                                                    <span class="font-14 weight-700 purple-color-2 ">XRP</span>
+                                                    <span class="font-10 weight-400 purple-color-2 ">Ripple</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end ">
+                                                <span class="font-14 weight-700 purple-color-2 ">13%</span>
+                                                <span class="font-10 weight-400 orange-color ">-4.6%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row ">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small light-green-bg-color green-color font-20 ">
+                                                    <i class="fas fa-tenge "></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2 ">
+                                                    <span class="font-14 weight-700 purple-color-2 ">USDT</span>
+                                                    <span class="font-10 weight-400 purple-color-2 ">Tether</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end ">
+                                                <span class="font-14 weight-700 purple-color-2 ">34%</span>
+                                                <span class="font-10 weight-400 purple-color-2 ">7.5%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-8">
+                        <div>
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase font-10 weight-600 grey-color-2">Extrato</th>
+                                        <th class="text-uppercase font-10 weight-600 purple-color-2 text-end">Ver mais</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row">
+                                                <div class="d-flex flex-row justify-content-center align-items-center orange-color square round-corner-small light-orange-bg-color font-14">
+                                                    <i class="fas fa-long-arrow-alt-up"></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2">
+                                                    <span class="font-14 weight-700 purple-color-2">Resgate BTE</span>
+                                                    <span class="font-10 weight-400 purple-color-2">12 Nov, 2020</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end">
+                                                <span class=" font-16 weight-700 orange-color ">-R$1,289.00</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row ">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small light-purple-bg-color purple-color-2 font-14 ">
+                                                    <i class="fas fa-long-arrow-alt-down "></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2 ">
+                                                    <span class="font-14 weight-700 purple-color-2 ">Saldo adicionado BRL</span>
+                                                    <span class="font-10 weight-400 purple-color-2 ">12 Nov, 2020</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end ">
+                                                <span class="font-16 weight-700 purple-color-2 ">+R$1,289.00</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex flex-row ">
+                                                <div class="d-flex flex-row justify-content-center align-items-center square round-corner-small light-orange-bg-color orange-color font-14 ">
+                                                    <i class="fas fa-long-arrow-alt-up "></i>
+                                                </div>
+                                                <div class="d-flex flex-column ps-2 ">
+                                                    <span class="font-14 weight-700 purple-color-2 ">Resgate XRP</span>
+                                                    <span class="font-10 weight-400 purple-color-2 ">12 Nov, 2020</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex flex-column align-items-end ">
+                                                <span class="font-16 weight-700 orange-color ">-R$1,289.00</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex flex-row justify-content-between mt-2">
+                            <span class="text-uppercase font-10 weight-600 grey-color-2">Segurança</span>
+                            <span class="text-uppercase font-10 weight-600 purple-color-2 text-end">Ver mais</span>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center grey-border round-corner px-4 py-3 mt-3">
+                            <div>
+                                <span class="d-block font-16 weight-400 purple-color-2">Dados públicos</span>
+                                <span class="d-block font-10 weight-400 purple-color-2">Oculto</span>
+                            </div>
+                            <div class="onoffwrapper">
+                                <input type="checkbox" name="toggle1" id="toggle1" class="onoff">
+                                <label for="toggle1"></label>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-between align-items-center grey-border round-corner px-4 py-3 mt-3">
+                            <div>
+                                <span class="d-block font-16 weight-400 purple-color-2">Verificação via Token</span>
+                                <span class="d-block font-10 weight-400 purple-color-2">Ativo</span>
+                            </div>
+                            <div class="onoffwrapper">
+                                <input type="checkbox" name="toggle2" id="toggle2" class="onoff" checked>
+                                <label for="toggle2"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <footer class="rodape">
         <p>Feito com o &#128151; pelo <a target="_blank" href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t6-grupo_1_pucrypto">Grupo 1</a></p>
