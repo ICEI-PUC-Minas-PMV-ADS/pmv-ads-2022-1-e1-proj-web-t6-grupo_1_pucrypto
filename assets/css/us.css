@@ -1,0 +1,127 @@
+@import "home.css";
+
+iframe {
+  max-width: 100%;
+  display: block;
+}
+
+span {
+  color: var(--details);
+}
+
+/* Introdução */
+.intro-us {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 20px;
+  margin: 0 auto;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.intro-descricao {
+  display: grid;
+  gap: 20px;
+}
+
+.intro-descricao h1 {
+  font-size: 2.5rem;
+}
+
+.intro-descricao p {
+  font-size: 1.2rem;
+}
+
+.map {
+  justify-self: end;
+}
+
+/* Pessoas */
+.pessoas {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.pessoas h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--details);
+}
+
+.lista-fundadores {
+  display: flex;
+  flex: 1;
+  list-style: none;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fundador {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 245px;
+  padding: 40px 20px;
+  flex: 1;
+  gap: 50px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.171);
+}
+
+.foto-perfil {
+  border-radius: 50%;
+}
+
+.nome-fundador {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--details);
+}
+
+.fundador p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* Contato */
+.contatos {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.contatos h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--details);
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  justify-items: center;
+  align-items: center;
+}
+
+.contato-paragrafo {
+  font-size: 1.2rem;
+}
+
+.contato-itens {
+  list-style: none;
+}
+
+.contato-itens li {
+  font-size: 2rem;
+}
+
+.contato-itens a {
+  color: var(--details);
+}
