@@ -1,3 +1,5 @@
+@import "home.css";
+
 .container {
     background: white;
     border-radius: 40px;
@@ -184,3 +186,11 @@ button {
     background: #E0F8F2;
 }
 
+.sair {
+    background-color: var(--details);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    position: absolute;
+    left: 12%;
+}
