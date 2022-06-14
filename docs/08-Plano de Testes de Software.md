@@ -8,7 +8,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 
-| Caso de Teste | :CT-01 - Visualizar principais criptomoedas do mercado | 
+| Caso de Teste |: CT-01 - Visualizar principais criptomoedas do mercado | 
 | ------------- | ----------------------------------------------------- |
 | Requisitos Associados | RF-01 - O site deve apresentar na página principal com barra de navegação e as 3 criptomoedas mais valiosas do mercado. |
 | Objetivo do Teste | Verificar se a aba principal está informando a valorização das 3 criptomoedas mais valiosas do mercado. |
