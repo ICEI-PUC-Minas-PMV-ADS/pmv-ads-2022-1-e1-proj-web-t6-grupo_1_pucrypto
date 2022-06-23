@@ -1,0 +1,45 @@
+span {
+    color: var(--details);
+}
+
+.container-university {
+    max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 20px;
+  margin: 0 auto;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.p-principal {
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.titulo-esquerda {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.p-esquerda {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.titulo-direita {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.p-direita {
+    text-align: right;
+    font-size: 1.2rem;
+}
