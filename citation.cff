@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title:PUCrypto
+authors:
+  - family-names: Micael Sampaio De Andrade
+    given-names: Aleykson
+  - family-names: França Alves Miranda
+    given-names: Gabriela
+  - family-names: Epifânio Silva
+    given-names: Gustavo 
+  - family-names:Guimarães
+    given-names: Gustavo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis
+    given-names: Nathália
+keywords:
+  - Cryptomoedas
+  - carteira digital 
+  - investimentos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pucrypto.github.io
+version: 1.0.0
+date-released: 2022-06-26
